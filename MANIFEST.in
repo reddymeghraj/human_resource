@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include human_resource *.css
+recursive-include human_resource *.csv
+recursive-include human_resource *.html
+recursive-include human_resource *.ico
+recursive-include human_resource *.js
+recursive-include human_resource *.json
+recursive-include human_resource *.md
+recursive-include human_resource *.png
+recursive-include human_resource *.py
+recursive-include human_resource *.svg
+recursive-include human_resource *.txt
+recursive-exclude human_resource *.pyc
